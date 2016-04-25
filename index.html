@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="./Css/board.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Amatic+SC:700,400' rel='stylesheet' type='text/css'>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+</head>
+
+<html>
+<body>
+<!-- Create the div's for the 20 board squares 
+We may change the ID names later for eaiser coding--> 
+ <div id="politics" class="clickoption" data-points= "25"  data-politics= "25" data-plant= "25" data-religion = "25" align="right" 
+ style="background-image: url('./images/tedCruz.png')">
+ </div>
+ <div  id ="buildings" class="clickoption" data-points= "-10"  data-politics= "-20" data-plant= "-5" data-religion = "15" align="right"
+ style="background-image: url('./images/buildings.png')">
+ </div>
+ <div id ="plants" class="clickoption" data-points= "0"  data-politics= "30" data-plant= "-15" data-religion = "-10"align="right"
+ style="background-image: url('./images/plants.jpg')">
+ </div>
+<div  id ="worship" class="clickoption" data-points= "30"  data-politics= "30" data-plant= "20" data-religion = "5"align="right"
+style="background-image: url('./images/worship.jpg')">
+</div>
+<div id="money" class="clickoption" data-points= "-5"  data-politics= "5" data-plant= "-5" data-religion = "5" align="right"
+style="background-image: url('./images/money.png')">
+</div>
+<div id="stars" class="clickoption" data-points= "15"  data-politics= "15" data-plant= "15" data-religion = "15" align="right" 
+style="background-image: url('./images/stars.png')">
+ </div>
+<div id="politics2" class="clickoption" data-points= "20"  data-politics= "0" data-plant= "-25" data-religion = "-40" align"right" style="background-image: url('./images/tedCruz.png')">
+
+ </div>
+ <div id="buildings2" class="clickoption" data-points= "0"  data-politics= "0" data-plant= "5" data-religion = "10" align="right" 
+ style="background-image: url('./images/buildings.png')">
+ </div>
+ 
+
+ <div id="plants2" align="right"  class="clickoption"  data-points= "10"  data-politics= "0" data-plant= "5" data-religion = "10"style="background-image: url('./images/plants.jpg')">
+ </div>
+ <div   id="worship2" data-points= "5"  data-politics= "-5" data-plant= "5" data-religion = "-5"  class="clickoption" style="background-image: url('./images/worship.jpg')">
+ </div>
+ <div  id="money2"  class="clickoption" data-points= "5"  data-politics= "10" data-plant= "15" data-religion = "20" style="background-image: url('./images/money.png')">
+ </div>
+<div id="stars2" class="clickoption" data-points= "20"  data-politics= "15" data-plant= "10" data-religion = "5" style="background-image: url('./images/stars.png')">
+    </div>
+    <div id="politics3" class="clickoption" data-points= "-10"  data-politics= "-10" data-plant= "-10" data-religion = "-10" style="background-image: url('./images/tedCruz.png')">
+ </div>
+ <div id="buildings3" class="clickoption" data-points= "50"  data-politics= "10" data-plant= "-25" data-religion = "-40" style="background-image: url('./images/buildings.png')">
+ </div>
+  <div id="plants3" class="clickoption" data-points= "5"  data-politics= "20" data-plant= "15" data-religion = "10" style="background-image: url('./images/plants.jpg')">
+ </div>
+ <div id="worship3" class="clickoption" data-points= "-5"  data-politics= "-10" data-plant= "-15" data-religion = "-20" style="background-image: url('./images/worship.jpg')">
+ </div>
+ <div id="money3" class="clickoption" data-points= "25"  data-politics= "25" data-plant= "35" data-religion = "5" style="background-image: url('./images/money.png')">
+ </div>
+ <div id="star3" class="clickoption" data-points= "20"  data-politics= "0" data-plant= "0" data-religion = "15" style="background-image: url('./images/stars.png')">
+ </div>
+ <div id="politics4" class="clickoption" data-points= "15"  data-politics= "20" data-plant= "10" data-religion = "0" style="background-image: url('./images/tedCruz.png')">
+ </div>
+ <div id="plants4" class="clickoption" data-points= "5"  data-politics= "30" data-plant= "25" data-religion = "10" style="background-image: url('./images/plants.jpg')">
+ </div>
+
+ <!--Create the information div-->
+ <div id="information">
+
+ <h1 style="text-align: center; font-family: 'Metrophobic', Arial, serif; font-weight: 400;"> It's Your Choice </h1> 
+ <h4 id="score"> </h4>
+
+ <h4 id="choice"></h4>
+ <h4 id="message"></h4>
+
+ <div class="progress">
+ <div class="progress-bar progress-bar-striped active" id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+        <span class="sr-only">0% Used</span> Power
+    </div>
+</div>
+<div class="progress">
+<div class="progress-bar progress-bar-striped active" id="power-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+     
+        <span class="sr-only">40% Used</span> Life
+    </div>
+</div>
+<div class="progress">
+ 
+   <div class="progress-bar progress-bar-striped active" id="pop-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+        <span class="sr-only">80% Used</span> Popularity
+    </div>
+</div>
+<div class="progress">
+ 
+    <div class="progress-bar progress-bar-striped active" id="religion-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+        <span class="sr-only">90% Used</span> Religion
+    </div>
+</div>
+
+</div>
+ 
+
+
+
+</body>
+
+<script src="./js/score.js"></script>
+
+</html>

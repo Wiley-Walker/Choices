@@ -1,0 +1,136 @@
+#politics {
+	width: 150px; height: 150px; background-color: red; border-style: 
+	solid;border-color: black; float: left;  background-origin:content-box;
+	 background-size: 150px
+
+}
+
+#buildings {
+	width: 150px; height: 150px; background-color: blue; 
+	border-style: solid;border-color: black; float: left; background-origin: content-box;
+	background-size: 150px
+}
+
+#plants {
+	width: 150px; height: 150px; background-color: green; 
+	border-style: solid;border-color: black; float: left; background-origin: content-box;
+	background-size: 150px
+}
+
+#worship {
+	width: 150px; height: 150px; background-color: red; 
+	border-style: solid;border-color: black; float: left; background-origin: content-box;
+	background-size: 150px
+
+}
+
+#money {
+	width: 150px; height: 150px; background-color: blue; 
+	border-style: solid;border-color: black; float: left; background-origin: content-box;
+	background-size: 150px
+}
+
+#stars
+{
+	width: 150px; height: 150px; background-color: green; 
+	border-style: solid;border-color: black; float: left; background-origin: content-box;
+	background-size: 150px
+
+}
+#politics2 {
+	width: 150px; height: 150px; background-color: red; 
+	border-style: solid;border-color: black; float: left; background-origin: content-box;
+	background-size: 150px
+}
+#buildings2 {
+	width: 150px; height: 150px; background-color: blue; 
+	border-style: solid;border-color: black; float: left; background-origin: content-box;
+	background-size: 150px	
+}
+
+#plants2 {
+	width: 150px; height: 150px; background-color: green; 
+	border-style: solid;border-color: black; float: left; background-origin: content-box;
+	background-size: 150px
+}
+
+#worship2 {
+	width: 150px; height: 150px; background-color: red; border-style: solid;border-color: black; position: absolute;
+    left: 8px;
+    top: 320px; background-size: 150px
+}
+#money2 {
+	width: 150px; height: 150px; background-color: blue; border-style: solid;border-color: black; 
+	position: absolute;
+    left: 8px;
+    top: 475px; background-size: 150px
+}
+#stars2{
+	width: 150px; height: 150px; background-color: red; border-style: solid;border-color: black;
+	position: absolute;
+    left: 164px;
+    top: 475px; background-size: 150px
+}
+#politics3 {
+	width: 150px; height: 150px; background-color: blue; border-style: solid;border-color: black; position: absolute;
+    left: 320px;
+    top: 475px; background-size: 150px
+}
+#buildings3 {
+	width: 150px; height: 150px; background-color: green; border-style: solid;border-color: black; position: absolute;
+    left: 476px;
+    top: 475px; background-size: 150px
+}
+#plants3 {
+	width: 150px; height: 150px; background-color: red; border-style: solid;border-color: black; position: absolute;
+    left: 631px;
+    top: 475px; background-size: 150px
+}
+#worship3 {
+	width: 150px; height: 150px; background-color: blue; border-style: solid;border-color: black; position: absolute;
+    left: 787px;
+    top: 475px; background-size: 150px
+}
+#money3 {
+	width: 150px; height: 150px; background-color: green; border-style: solid;border-color: black; 
+	position: absolute;
+    left: 943px;
+    top: 475px; background-size: 150px
+}
+#star3 {
+	width: 150px; height: 150px; background-color: red; border-style: solid;border-color: black;
+	position: absolute;
+    left: 1099px;
+    top: 475px; background-size: 150px
+}
+#politics4 {
+	width: 150px; height: 150px; background-color: blue; border-style: solid;border-color: black;
+	position: absolute;
+    left: 1099px;
+    top: 320px; background-size: 150px
+}
+#plants4 {
+	width: 150px; height: 150px; background-color: blue; border-style: solid;border-color: black; 
+	position: absolute;
+    left: 1099px;
+    top: 164px; background-size: 150px
+}
+
+#information { width: 930px; height: 310px;  position: absolute; left: 164px; top:160px; 
+	border-color: red;
+	border-style: solid; background-color: orange
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
